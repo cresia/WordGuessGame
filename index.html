@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="page" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word-Guess-Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+   
+</head>
+
+<body class="page">
+    
+<embed autoplay height="0" width="0" src="assets/music/spiritedAway.mp3"></embed>
+    
+    
+<div class="container">
+
+
+    <div class="title">
+            <img class ="heading" src="assets/images/Hangman.jpg" width="450" height="160" alt="hangman"/>
+          <br>
+          <br>
+            <p id="sub">Let's play the Game</p>
+        
+    </div>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <h3 class="key">Press Any Key (A-Z) To Get Started 
+                <br>
+                Or 
+                <br>
+                "Enter" to Restart the Game</h3>
+        </div>
+    </div>
+
+    <div class= "panel panel-default">
+        <div class="category">
+            Wins: <span id="winCounter"></span>
+        </div>
+    </div>
+
+    <div class= "panel panel-default">
+        <div class="body1">
+               <h3 class="panel-title"> Current Word </h3> 
+        </div>
+        <div class="body1">
+            <h2 id ="wordtoguess">_ _ _ _ _ _ _</h2>
+        </div>
+    </div>
+
+    <div class= "panel panel-default">
+        <div class="category">
+            Number Of Guesses Remaining: <span id="guessRe">12</span>
+        </div>
+    </div>
+    <br>
+
+    <div class= "panel panel-default">
+        <div class="category">
+            Letter Already Guessed: <span id="alreadyGuessed"></span>
+        </div>
+    </div>
+
+</div>
+
+
+
+<script type="text/javascript" src="assets/javascript/game.js"></script>
+
+
+</body>
+</html>
+
+
